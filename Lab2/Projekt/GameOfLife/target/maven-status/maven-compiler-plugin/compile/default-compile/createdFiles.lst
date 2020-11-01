@@ -1,0 +1,12 @@
+game\Pattern.class
+game\LogicSolver.class
+game\CoordinatePoints.class
+game\Keyboard.class
+game\Gameplay.class
+game\Instruction.class
+game\RandomPattern.class
+game\SceneChanger.class
+game\QueenBeeShuttlePattern.class
+game\SceneGenerator.class
+game\TumblerPattern.class
+game\Main.class

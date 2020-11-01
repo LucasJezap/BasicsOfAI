@@ -1,0 +1,75 @@
+FUNCTION_BLOCK
+
+VAR_INPUT
+left_distance : REAL;
+hole_distance_horizontal : REAL;
+front_distance : REAL;
+END_VAR
+
+VAR_OUTPUT
+car_turning : REAL;
+END_VAR
+
+FUZZIFY left_distance
+TERM really_close := (0, 1) (15, 1) (30, 0);
+TERM close := (20, 0) (25, 1) (35, 1) (45, 0);
+TERM medium := (35, 0) (45, 1) (55, 1) (65, 0);
+TERM far := (55, 0) (55, 1) (65, 1) (80, 0);
+TERM really_far := (70, 0) (85, 1) (100, 1);
+END_FUZZIFY
+
+FUZZIFY hole_distance_horizontal
+TERM left := (0, 0) (15, 1) (25, 1) (40, 0);
+TERM medium := (30, 0) (45, 1) (55, 1) (70, 0);
+TERM right := (60, 0) (75, 1) (85, 1) (100, 0);
+END_FUZZIFY
+
+FUZZIFY front_distance
+TERM really_close := (0, 1) (25, 1) (40, 0);
+TERM close := (30, 0) (45, 1) (55, 1) (70, 0);
+TERM medium := (60, 0) (75, 1) (85, 1) (100, 0);
+END_FUZZIFY
+
+DEFUZZIFY car_turning
+TERM really_left := (0, 1) (10, 1) (25, 0);
+TERM left := (15, 0) (25, 1) (35, 1) (45, 0);
+TERM stay := (35, 0) (45, 1) (55, 1) (65, 0);
+TERM right := (55, 0) (65, 1) (75, 1) (85, 0);
+TERM really_right := (75, 0) (90, 1) (100, 1);
+END_DEFUZZIFY
+
+RULEBLOCK first
+AND: MIN;
+ACT: MIN;
+
+RULE 0: IF left_distance IS really_close THEN car_turning IS really_right;
+RULE 1: IF left_distance IS really_far THEN car_turning IS really_left;
+RULE 2: IF left_distance IS close THEN car_turning IS right;
+RULE 3: IF left_distance IS far THEN car_turning IS left;
+RULE 4: IF left_distance IS medium THEN car_turning IS stay;
+
+RULE 5: IF hole_distance_horizontal is medium AND left_distance IS really_close AND front_distance IS close
+THEN car_turning IS really_right;
+RULE 6: IF hole_distance_horizontal is medium AND left_distance IS close AND front_distance IS close
+THEN car_turning IS right;
+RULE 7: IF hole_distance_horizontal is medium AND left_distance IS medium AND front_distance IS close
+THEN car_turning IS right;
+RULE 8: IF hole_distance_horizontal is medium AND left_distance IS far AND front_distance IS close
+THEN car_turning IS left;
+RULE 9: IF hole_distance_horizontal is medium AND left_distance IS really_far AND front_distance IS close
+THEN car_turning IS really_left;
+
+RULE 10: IF hole_distance_horizontal is medium AND left_distance IS really_close AND front_distance IS really_close
+THEN car_turning IS really_right;
+RULE 11: IF hole_distance_horizontal is medium AND left_distance IS close AND front_distance IS really_close
+THEN car_turning IS really_right;
+RULE 12: IF hole_distance_horizontal is medium AND left_distance IS medium AND front_distance IS really_close
+THEN car_turning IS really_right;
+RULE 13: IF hole_distance_horizontal is medium AND left_distance IS far AND front_distance IS really_close
+THEN car_turning IS really_left;
+RULE 14: IF hole_distance_horizontal is medium AND left_distance IS really_far AND front_distance IS really_close
+THEN car_turning IS really_left;
+
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK

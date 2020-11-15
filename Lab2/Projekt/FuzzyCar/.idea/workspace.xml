@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FuzzyCar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -81,13 +81,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,7 +109,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604225005700</updated>
-      <workItem from="1605441605266" duration="9271000" />
+      <workItem from="1605441605266" duration="9136000" />
+      <workItem from="1605450892898" duration="11005000" />
     </task>
     <servers />
   </component>
@@ -123,6 +126,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="950" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1605450706064" />
+    <state x="348" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605450986345">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="348" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1605450986345" />
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604332609789">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -131,26 +138,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="592" y="315" key="DetectedRootsChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1604266539324" />
-    <state x="501" y="181" key="FileChooserDialogImpl" timestamp="1605450890013">
+    <state x="501" y="181" key="FileChooserDialogImpl" timestamp="1604405886693">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="501" y="181" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605450890013" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1605450891152">
+    <state x="501" y="181" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604405886693" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1605468313148">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605450891152" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1605450891152">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605468313148" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1605468313148">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605450891152" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1605450891151">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605468313148" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1605468313148">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605450891151" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1605450891152">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605468313148" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1605468313148">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605450891152" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605468313148" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1604266488342">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

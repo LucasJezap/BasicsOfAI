@@ -58,8 +58,6 @@ RULE 9: IF hole_distance_horizontal IS middle AND left_distance IS left THEN car
 RULE 10: IF hole_distance_horizontal IS middle AND left_distance IS right THEN car_turning IS hard_left;
 RULE 11: IF hole_distance_horizontal IS middle AND left_distance IS middle THEN car_turning IS hard_right;
 
-RULE 12: IF hole_distance_horizontal IS left AND left_distance IS right THEN car_turning IS hard_left;
-RULE 13: If hole_distance_horizontal IS right AND left_distance IS left THEN car_turning IS hard_right;
 
 END_RULEBLOCK
 

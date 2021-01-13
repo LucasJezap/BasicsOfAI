@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0e366d-8a27-4d09-8c68-8e75a4bdfb4e" name="Default Changelist" comment="" />
+    <list default="true" id="fe0e366d-8a27-4d09-8c68-8e75a4bdfb4e" name="Default Changelist" comment="Fixed fuzzy logic and made packages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,19 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -110,7 +97,15 @@
       <option name="presentableId" value="Default" />
       <updated>1604225005700</updated>
       <workItem from="1605441605266" duration="9136000" />
-      <workItem from="1605450892898" duration="11005000" />
+      <workItem from="1605450892898" duration="11379000" />
+      <workItem from="1605521455678" duration="779000" />
+      <workItem from="1605535770377" duration="7000" />
+      <workItem from="1606914276945" duration="94000" />
+      <workItem from="1606915132667" duration="401000" />
+      <workItem from="1606930178887" duration="599000" />
+      <workItem from="1607020729945" duration="44000" />
+      <workItem from="1607606242241" duration="2208000" />
+      <workItem from="1608817259530" duration="152000" />
     </task>
     <servers />
   </component>
@@ -138,26 +133,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="592" y="315" key="DetectedRootsChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1604266539324" />
-    <state x="501" y="181" key="FileChooserDialogImpl" timestamp="1604405886693">
+    <state x="501" y="181" key="FileChooserDialogImpl" timestamp="1608817355335">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="501" y="181" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604405886693" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1605468313148">
+    <state x="501" y="181" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1608817355335" />
+    <state width="1494" height="221" key="GridCell.Tab.0.bottom" timestamp="1607609502612">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605468313148" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1605468313148">
+    <state width="1494" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1607609502612" />
+    <state width="1494" height="221" key="GridCell.Tab.0.center" timestamp="1607609502611">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605468313148" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1605468313148">
+    <state width="1494" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1607609502611" />
+    <state width="1494" height="221" key="GridCell.Tab.0.left" timestamp="1607609502611">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605468313148" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1605468313148">
+    <state width="1494" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1607609502611" />
+    <state width="1494" height="221" key="GridCell.Tab.0.right" timestamp="1607609502612">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605468313148" />
+    <state width="1494" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607609502612" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1604266488342">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -170,10 +165,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1605447456038" />
-    <state x="360" y="93" key="new project wizard" timestamp="1604405891536">
+    <state x="360" y="93" key="new project wizard" timestamp="1608817358733">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="360" y="93" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1604405891536" />
+    <state x="360" y="93" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1608817358733" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1605450716929">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

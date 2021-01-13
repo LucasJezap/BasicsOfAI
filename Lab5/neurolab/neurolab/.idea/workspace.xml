@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f9390a0-9851-418b-bc0f-d96b12ca3ef1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1mxn8gS94607RRIbI6A57lBYn17" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python37" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for neurolab.TestChapterThree.test_exercise_five">
+    <configuration name="Unittests for neurolab.TestChapterOne.test_exercise_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="neurolab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;neurolab.TestChapterOne.test_exercise_three&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for neurolab.TestChapterThree.test_exercise_five" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="neurolab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;neurolab.TestChapterThree.test_exercise_five&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for neurolab.TestChapterTwo" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="neurolab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;neurolab.TestChapterTwo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for neurolab.TestChapterTwo.test_exercise_four" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="neurolab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;neurolab.TestChapterTwo.test_exercise_four&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in neurolab.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="neurolab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/neurolab.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for neurolab.TestChapterThree.test_exercise_five" />
+        <item itemvalue="Python tests.Unittests in neurolab.py" />
+        <item itemvalue="Python tests.Unittests for neurolab.TestChapterTwo" />
+        <item itemvalue="Python tests.Unittests for neurolab.TestChapterTwo.test_exercise_four" />
+        <item itemvalue="Python tests.Unittests for neurolab.TestChapterOne.test_exercise_three" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f9390a0-9851-418b-bc0f-d96b12ca3ef1" name="Default Changelist" comment="" />
+      <created>1610443953768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610443953768</updated>
+      <workItem from="1610443955470" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="111" key="#Inspections" timestamp="1610559146442">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="395" y="111" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1610559146442" />
+    <state x="548" y="186" key="FileChooserDialogImpl" timestamp="1610458544010">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="186" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1610458544010" />
+    <state width="1515" height="277" key="GridCell.Tab.0.bottom" timestamp="1610560180448">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1610560180448" />
+    <state width="1515" height="277" key="GridCell.Tab.0.center" timestamp="1610560180448">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1610560180448" />
+    <state width="1515" height="277" key="GridCell.Tab.0.left" timestamp="1610560180448">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1610560180448" />
+    <state width="1515" height="277" key="GridCell.Tab.0.right" timestamp="1610560180448">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1610560180448" />
+    <state width="1515" height="277" key="GridCell.Tab.1.bottom" timestamp="1610560180448">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1610560180448" />
+    <state width="1515" height="277" key="GridCell.Tab.1.center" timestamp="1610560180448">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1610560180448" />
+    <state width="1515" height="277" key="GridCell.Tab.1.left" timestamp="1610560180448">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1610560180448" />
+    <state width="1515" height="277" key="GridCell.Tab.1.right" timestamp="1610560180448">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1610560180448" />
+    <state x="277" y="77" key="SettingsEditor" timestamp="1610458583466">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1610458583466" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neurolab.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

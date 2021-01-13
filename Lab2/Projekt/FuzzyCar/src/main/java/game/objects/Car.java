@@ -22,9 +22,9 @@ public class Car {
 
     public void move_car(double defuzzy) {
         int rows;
-        if (defuzzy < 49.1)
+        if (defuzzy < 45)
             rows = -1;
-        else if (defuzzy < 50.9)
+        else if (defuzzy < 55)
             rows = 0;
         else
             rows = 1;

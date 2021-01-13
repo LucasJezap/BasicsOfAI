@@ -8,6 +8,8 @@ import java.util.Random;
 
 public class Hole {
     protected final int holeSize = 3;
+    /* speed should be lower than 5 */
+    protected final int holeSpeed = 3;
 
     protected int holeCount = 0;
     protected ArrayList<Integer> hole = new ArrayList<>(Collections.nCopies(holeSize * holeSize, -1));
@@ -24,8 +26,8 @@ public class Hole {
 
     public void move_hole() {
         for (int i = 0; i < hole.size(); i++)
-            hole.set(i, hole.get(i) - 3);
-        holeCount += 3;
+            hole.set(i, hole.get(i) - holeSpeed);
+        holeCount += holeSpeed;
         if (holeCount + 2 >= Main.colNum) {
             holeCount = 0;
             Main.isHole = false;
